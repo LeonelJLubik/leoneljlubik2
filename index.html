@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow"/>
+   
+    <link rel="stylesheet" href="./stylesCV.css">
+    <link rel="stylesheet" href="./webfonts/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
+    <title>Carlos López</title>
+</head>
+<body>
+    <header>
+        <h1 style="
+        margin-bottom: 100px;">Carlos López</h1>
+    </header>
+ 
+    <div class="Datos">
+
+        <img src="./imagenesCV/FotoCVHombre.jpg" alt="Imagen de hombre de CV" id="imagen-CV" style="margin-bottom: 50px;">
+
+    <h2><i class="fa-solid fa-user-check"></i> Datos Personales</h2>
+    <ul>
+        <li>Fecha de Nacimiento: 10-9-1990</li>
+        <li>Nacionalidad: Español</li>
+        <li>Residencia: Madrid, España</li>
+    </ul>
+    
+    <h2 style="margin-top: 100px">
+    <i class="fa-solid fa-pencil-ruler"></i> Educación</h2>
+    <ul>
+        <li>Grado en Ingeniería de Sistemas de Telecomunicación</li>
+        <li>Universidad Politécnica de Madrid</li>
+        <li>2009-2013</li>
+        <li>Nota media: 9,0</li>
+    </ul>
+
+    <h2 style="margin-top: 250px;margin-bottom: 50px;">
+    <i class="fa-solid fa-clipboard-list"></i> Experiencia</h2>
+            <h3>Técnico de Sistemas</h3>
+            <h4>IT Partners and Co.</h4>
+            <h5>Julio 2015-Enero 2010</h5>
+            <ul>
+                <li>A cargo de proporcionar mantenimiento y soporte para los más de 500 equipos informáticos de la empresa.</li>
+                <li>Creé un protocolo de actuación en caso de averías y problemas que redujo los tiempos de reparación en un 15%.</li>
+                <li>Gracias a la creación de una serie de videos tutoriales dirigidos al usuario, reduje el número de solicitudes de ayuda diaria en un 25%.</li>
+                <li>Instauré un nuevo sistema de encuestas para revelar sus índices de satisfacción anuales.</li>
+            </ul>
+            <h3>Técnico informático</h3>
+            <h4>PANEL Sistemas Informáticos</h4>
+            <h5>Febrero 2013-Julio 2015</h5>
+            <ul>
+                <li>Responsable de la instalación de sistemas operativos y paquetes de software para los nuevos empleados de la compañía.</li>
+                <li>Proporcioné mantenimiento a más de 600 equipos de cómputo de forma periódica.</li>
+                <li>Atendí exitosamente un promedio de 50 solicitudes diarias provenientes de usuarios.</li>
+                <li>Reduje el tiempo de respuesta de atención de usuario en un 50%.</li>
+            </ul>
+            <h3><i class="fa-solid fa-message"></i>  Idiomas</h3>
+            <ul>
+                <li>Inglés - Nivel intermedio</li>
+                <li>Alemán - Nivel intermedio</li>
+            </ul>
+
+</div>
+
+</body>
+<footer>
+  
+    <button id="Correo" onclick="MostrarCorreo()">Correo</button>
+    <p id="correo"></p>
+
+    <script>
+         function MostrarCorreo(){
+            document.getElementById("correo").innerHTML = "carloslopez@hotmail.com.ar";
+         }
+    </script>
+
+</footer>
+
+</html>
